@@ -9,9 +9,17 @@ Credit card fraud is a pervasive and relatively modern issue. Card-not-present f
 - Complex; difficult to interpret
 - Expensive to train
 #### Data-Driven
+- Artificial Neural Network (ANN)
+  - Feature Extraction
+  - Supervised Classifiers
+- Convolutional Neural Network
+  - AdaBoost with Majority voiting
+[2]
 ****
 ### Self-Detection
-
+In a survey of 150 victims of credit card fraud, 82 (54.7%) discovered the fraud on their own after reviewing their account statement. While the researchers conducting the survey speculated that the sample was perhaps more technically skilled than the average person, thus inflating the rate of self-detection [1]. 
+### Timing
+While the majority of victims detected fraud through their statements, only 38.7% of these incidents were detected in under an hour. This is signifcantly less than the 69.8% of incidents detected with notifications. [1].
 ## Resources
 **[1]** Eman Alashwali, Ragashree Mysuru Chandrashekar, Mandy Lanyon, and Lorrie Faith Cranor. 2024. Detection and Impact of Debit/Credit Card Fraud: Victims' Experiences. In Proceedings of the 2024 European Symposium on Usable Security (EuroUSEC '24). Association for Computing Machinery, New York, NY, USA, 235–260. https://doi.org/10.1145/3688459.3688464
 <br><br>
