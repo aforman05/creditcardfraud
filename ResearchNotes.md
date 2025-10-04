@@ -4,7 +4,7 @@ Credit card fraud is a pervasive and relatively modern issue. Card-not-present f
 ## Detection Methods
 ### Automated Detection
 #### Decision Tree
-**Disadvantages:**
+Disadvantages:
 - Sensitive to noise
 - Complex; difficult to interpret
 - Expensive to train
@@ -14,8 +14,11 @@ Credit card fraud is a pervasive and relatively modern issue. Card-not-present f
   - Supervised Classifiers
 - Convolutional Neural Network
   - AdaBoost with Majority voiting
+- Attention Mechanism
+  - Uses computation: Attention (Q,K,V) = $softmax({QK^T}/\sqrt\{d_k})V$
+  - Where Q = Query, K = Key, V = Value, d = unauthorized transaction, and T = transaction
 [2]
-****
+<br>
 ### Self-Detection
 In a survey of 150 victims of credit card fraud, 82 (54.7%) discovered the fraud on their own after reviewing their account statement. While the researchers conducting the survey speculated that the sample was perhaps more technically skilled than the average person, thus inflating the rate of self-detection [1]. 
 ### Timing
